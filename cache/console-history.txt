@@ -1,0 +1,4 @@
+node -e "require('dotenv').config(); console.log(process.env.PRIVATE_KEY ? 'YES: ' + process.env.PRIVATE_KEY.substring(0,10) : 'NO');"
+console.log('PRIVATE_KEY:', process.env.PRIVATE_KE(0, 10) + '...' : 'Undefined');
+const signers = await ethers.getSigners(); console.log(signers[0].address);
+help
